@@ -16,7 +16,7 @@ function App() {
     <Route path="/r1" render={()=>(<Com1></Com1>)} />
     <Route path="/r2" render={()=>(<Com2></Com2>)} />
 
-    <a href="https://reacttestsite1.netlify.app/live/" style={{color:"white"}}><div className="go-to-sub-site">go to sub site</div></a>
+    <a href="https://reacttestsite1.netlify.app/leadgenerator/" style={{color:"white"}}><div className="go-to-sub-site">go to sub site</div></a>
 
     <div className="links-conatiner">
       <Link style={{color:"white"}} to="/"><span className="links">Route /</span></Link>
