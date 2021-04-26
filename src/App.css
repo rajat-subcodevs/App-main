@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +24,33 @@
   color: white;
 }
 
+.links-conatiner{
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white !important;
+}
+.links{
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.go-to-sub-site{
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  border: 2px solid white;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .App-link {
-  color: #61dafb;
+  color: #ffd000;
 }
 
 @keyframes App-logo-spin {
